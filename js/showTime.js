@@ -11,6 +11,6 @@ function time() {
     var m=dt.getMinutes();
     var s=dt.getSeconds();
     document.querySelector(".showTime").innerHTML=
-        '当前时间：'+y+'年'+mt+'月'+day+'-'+h+'时'+m+'分'+s+'秒';
+        '当前时间：'+y+'年'+mt+'月'+day+'日-'+h+'时'+m+'分'+s+'秒';
     t=setTimeout(time,1000);//设定顶峰时期，循环运行
 }
